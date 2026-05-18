@@ -17,7 +17,7 @@ El objetivo de este espacio es servir como guía de referencia rápida para admi
 ## 🚀 Proyectos Incluidos
 
 Aquí hay una lista de los despliegues documentados en este repo:
-*   [Proxy Inverso con Nginx]('./projects/nginx-reverse-proxy') - Configuración de SSL y enrutamiento.
+*   [Proxy Inverso con Nginx]('./projects/nginx-reverse-proxy') - Configuración e instalacion de Docker Windows.
 *   [Entorno de Monitoreo]('./projects/monitoring-stack') - Recolección de métricas básicas de contenedores.
 *(Puedes ir sumando tus proyectos de automatización, firewalls, bases de datos, etc.)*
 
