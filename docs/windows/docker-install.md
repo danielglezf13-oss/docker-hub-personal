@@ -9,7 +9,7 @@ Antes de empezar, asegúrate de que tu computadora cumpla con lo siguiente:
 - **RAM:** Mínimo 4 GB de memoria RAM.
 - **BIOS:** La **virtualización de hardware** debe estar habilitada en la BIOS de tu computadora. (Puedes verificarlo abriendo el *Administrador de tareas* → pestaña *Rendimiento* → sección *CPU*. Ahí deberías ver "Virtualización: Habilitada").
 
-![Requisitos del sistema](img/imagen1.png)
+<img src="img/imagen1.png" alt="Requisitos del sistema" width="500">
 
 ---
 
@@ -29,7 +29,7 @@ wsl --install
 
 > 💡 **Nota:** Si ya tenías WSL instalado, es buena idea asegurarte de que esté actualizado ejecutando `wsl --update` en la terminal.
 
-![Instalación de WSL 2](img/imagen2.png)
+<img src="img/imagen2.png" alt="Instalación de WSL 2" width="500">
 
 ---
 
@@ -42,7 +42,7 @@ wsl --install
 5. Haz clic en **Ok** y espera a que termine el proceso de instalación.
 6. Al finalizar, es muy probable que el instalador te pida cerrar sesión en Windows o **reiniciar la computadora** una vez más. Hazlo.
 
-![Instalación de Docker Desktop](img/imagen3.png)
+<img src="img/imagen3.png" alt="Instalación de Docker Desktop" width="500">
 
 ---
 
@@ -53,7 +53,7 @@ wsl --install
 3. A continuación, puedes elegir una configuración rápida (puedes darle "Skip" o saltar si no quieres iniciar sesión con una cuenta de Docker por ahora).
 4. Espera un par de minutos a que la ballena de Docker en la esquina inferior izquierda de la aplicación cambie a color **verde** (esto indica que el motor de Docker está corriendo).
 
-![Configuración inicial de Docker Desktop](img/imagen4.png)
+<img src="img/imagen4.png" alt="Configuración inicial de Docker Desktop" width="500">
 
 ---
 
@@ -77,4 +77,4 @@ docker run hello-world
 
 *(Este comando descargará una imagen ligera de prueba y la ejecutará. Si ves un mensaje de bienvenida que dice **"Hello from Docker!"**, ¡felicidades! Tu Docker está perfectamente instalado y operativo).*
 
-![Verificación de instalación exitosa](img/imagen5.png)
+<img src="img/imagen5.png" alt="Verificación de instalación exitosa" width="500">
